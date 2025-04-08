@@ -7,6 +7,7 @@
 
 :root {
   --cl-primary: #002c69;
+  --cl-secondary: #F7951D;
   --font-primary: "Be Vietnam Pro", sans-serif;
   --font-secondary: "Inter", sans-serif;
 }
@@ -15,6 +16,9 @@ body {
   background-color: white;
   font-family: var(--font-primary);
   font-size: 14px; 
+}
+input, button {
+  font-family: var(--font-primary);
 }
 .sm {
   display: none !important;
