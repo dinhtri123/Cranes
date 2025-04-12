@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -16,6 +17,7 @@ body {
   background-color: white;
   font-family: var(--font-primary);
   font-size: 14px; 
+  overflow-x: hidden;
 }
 input, button {
   font-family: var(--font-primary);
@@ -214,13 +216,13 @@ border-image-slice: 1;
   right: 40px !important;
 }
 .info {
-  padding: 75px 0px 87px;
+  padding:50px 0px;
 }
 .info-main {
   display: flex;
   justify-content: center;
   gap: 48px;
-  margin-top: 85px;
+  margin-top: 50px;
 }
 .info-left {
   display: flex;
@@ -268,7 +270,7 @@ border-image-slice: 1;
   height: 100%;
 }
 .news {
-  padding: 54px 0px 100px;
+  padding: 50px 0px;
 }
 .news-top {
   display: flex;
@@ -289,7 +291,7 @@ border-image-slice: 1;
 .news-main {
   display: flex;
   gap: 20px;
-  margin-top: 85px;
+  margin-top: 50px;
 }
 .news-left {
   max-width: 66%;
