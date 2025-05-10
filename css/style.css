@@ -434,12 +434,14 @@ ul {
 }
 .partnerSlider .swiper-slide {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 20px 40px;
 }
 .partnerSlider .swiper-slide img {
   object-fit: contain;
+  margin: 0px auto;
 }
 .partnerSlider {
   padding-bottom: 50px !important;
@@ -634,7 +636,7 @@ footer {
     width: 48px;
   }
   .info-item > div strong {
-    font-size: 32px;
+    font-size: 24px;
   }
   .info-item > div p {
     font-size: 12px;
